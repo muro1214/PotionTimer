@@ -1,0 +1,9 @@
+name: "PotionTimer"
+version: "${project.version}"
+main: "com.github.muro1214.potiontimer.Main"
+api-version: "1.16"
+commands:
+  pt:
+    description: "Potion expires timer"
+    usage: "/<command> <seconds>"
+    default: true
